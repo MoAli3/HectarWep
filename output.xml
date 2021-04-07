@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.6.5 on win32)" generated="20210406 15:35:57.785" rpa="false">
+<suite id="s1" name="Test" source="C:\Users\Mostafa\PycharmProjects\pythonProject2\Test\test.robot">
+<test id="s1-t1" name="verify file ubload">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://dev.devstagging.online/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20210406 15:35:58.485" level="INFO">Opening browser 'chrome' to base url 'http://dev.devstagging.online/'.</msg>
+<status status="PASS" starttime="20210406 15:35:58.485" endtime="20210406 15:36:10.753"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>6s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:16.761" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:10.755" endtime="20210406 15:36:16.761"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//a[contains(text(),'تسجيل دخول/ اشتراك')]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:16.765" level="INFO">Clicking element '//a[contains(text(),'تسجيل دخول/ اشتراك')]'.</msg>
+<status status="PASS" starttime="20210406 15:36:16.764" endtime="20210406 15:36:16.964"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:19.014" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:16.965" endtime="20210406 15:36:19.025"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=telephone</arg>
+<arg>0500000000</arg>
+</arguments>
+<msg timestamp="20210406 15:36:19.030" level="INFO">Typing password into text field 'name=telephone'.</msg>
+<status status="PASS" starttime="20210406 15:36:19.029" endtime="20210406 15:36:19.679"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:20.704" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210406 15:36:19.694" endtime="20210406 15:36:20.705"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=password login-password</arg>
+<arg>123456</arg>
+</arguments>
+<msg timestamp="20210406 15:36:20.706" level="INFO">Typing password into text field 'id=password login-password'.</msg>
+<status status="PASS" starttime="20210406 15:36:20.706" endtime="20210406 15:36:21.062"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:22.071" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210406 15:36:21.063" endtime="20210406 15:36:22.071"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//button[contains(@class,'btn button margin-bottom-0 w-100 bg-blue btn-primary')]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:22.073" level="INFO">Clicking element 'xpath=//button[contains(@class,'btn button margin-bottom-0 w-100 bg-blue btn-primary')]'.</msg>
+<status status="PASS" starttime="20210406 15:36:22.072" endtime="20210406 15:36:22.321"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:24.352" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:22.338" endtime="20210406 15:36:24.354"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//label[@class='h4'][2]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:24.357" level="INFO">Clicking element '//label[@class='h4'][2]'.</msg>
+<status status="PASS" starttime="20210406 15:36:24.356" endtime="20210406 15:36:24.674"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:27.678" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:24.675" endtime="20210406 15:36:27.678"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//input[@class='form-control pac-target-input']</arg>
+<arg>الرياض</arg>
+</arguments>
+<msg timestamp="20210406 15:36:27.679" level="INFO">Typing text 'الرياض' into text field 'xpath=//input[@class='form-control pac-target-input']'.</msg>
+<status status="PASS" starttime="20210406 15:36:27.678" endtime="20210406 15:36:27.813"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:30.826" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:27.813" endtime="20210406 15:36:30.826"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//span[@class='pac-matched'][contains(.,'الرياض')]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:30.828" level="INFO">Clicking element 'xpath=//span[@class='pac-matched'][contains(.,'الرياض')]'.</msg>
+<status status="PASS" starttime="20210406 15:36:30.827" endtime="20210406 15:36:30.887"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:33.902" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:30.888" endtime="20210406 15:36:33.902"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//button[contains(@type,'submit')]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:33.903" level="INFO">Clicking element 'xpath=//button[contains(@type,'submit')]'.</msg>
+<status status="PASS" starttime="20210406 15:36:33.903" endtime="20210406 15:36:33.999"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:39.013" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:34.000" endtime="20210406 15:36:39.013"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//body/div[@id='wrapper']/div[@class='online-connection']/div/div[@class='fs-container is-properties-view']/div[@class='fs-inner-container properties-column']/div[@class='fs-content']/div[@class='listings-container-wrap results-view']/div[@class='listings-container-inner content-column']/div[@id='listings-list']/div[2]/div[1]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:39.014" level="INFO">Clicking element '//body/div[@id='wrapper']/div[@class='online-connection']/div/div[@class='fs-container is-properties-view']/div[@class='fs-inner-container properties-column']/div[@class='fs-content']/div[@class='listings-container-wrap results-view']/div[@class='listings-container-inner content-column']/div[@id='listings-list']/div[2]/div[1]'.</msg>
+<status status="PASS" starttime="20210406 15:36:39.014" endtime="20210406 15:36:39.264"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:44.285" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:39.276" endtime="20210406 15:36:44.285"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//span[@title='اضف للمفضلة']//span[@class='hi-bookmark2-o icon']</arg>
+</arguments>
+<msg timestamp="20210406 15:36:44.286" level="INFO">Clicking element '//span[@title='اضف للمفضلة']//span[@class='hi-bookmark2-o icon']'.</msg>
+<status status="PASS" starttime="20210406 15:36:44.286" endtime="20210406 15:36:44.413"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:45.428" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210406 15:36:44.413" endtime="20210406 15:36:45.428"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:47.435" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210406 15:36:45.429" endtime="20210406 15:36:47.435"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//a[@class='hi-thumbs-o-up'][1]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:47.437" level="INFO">Clicking element '//a[@class='hi-thumbs-o-up'][1]'.</msg>
+<status status="PASS" starttime="20210406 15:36:47.436" endtime="20210406 15:36:47.500"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20210406 15:36:48.511" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20210406 15:36:47.500" endtime="20210406 15:36:48.511"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//button[@class='Rate__star'][1]</arg>
+</arguments>
+<msg timestamp="20210406 15:36:48.514" level="INFO">Clicking element 'xpath=//button[@class='Rate__star'][1]'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20210406 15:36:48.909" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210406 15:36:48.531" endtime="20210406 15:36:48.909"></status>
+</kw>
+<msg timestamp="20210406 15:36:49.014" level="FAIL">Element with locator 'xpath=//button[@class='Rate__star'][1]' not found.</msg>
+<status status="FAIL" starttime="20210406 15:36:48.513" endtime="20210406 15:36:49.015"></status>
+</kw>
+<status status="FAIL" starttime="20210406 15:35:58.483" endtime="20210406 15:36:49.015" critical="yes">Element with locator 'xpath=//button[@class='Rate__star'][1]' not found.</status>
+</test>
+<status status="FAIL" starttime="20210406 15:35:57.787" endtime="20210406 15:36:49.018"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
